@@ -4,6 +4,17 @@ This is a starter project for web development with no frameworks and minimal
 dependencies. It is intended to be a starting point for web development projects
 that are written in plain HTML, CSS, and JavaScript.
 
+## Accessibility Lab Answers
+
+### Color Contrast
+Using the online tool in the reading, https://webaim.org/resources/contrastchecker/, using the background color hex #008000, and text color #2a2a2a.
+
+These colors gave a ratio of 1.18:1, which failed every contrast test. To fix this, we can change the background to white and keep the text color.
+
+### Semantic HTML
+
+
+
 ## Getting Started
 
 To get started, clone this repository and run the following commands:
