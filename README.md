@@ -13,6 +13,14 @@ These colors gave a ratio of 1.18:1, which failed every contrast test. To fix th
 
 ### Semantic HTML
 
+The navigation, query, related, and audio elements are all accessible with keyboard. The only interactive element that is not
+accessible by keyboard is the show comments button, as pressing return on the button does not toggle the show comments. But,
+it only navigates through buttons and doesn't go through the headers or different parts of the article, it only goes to
+interactive elements.
+
+To make the article text more accessible, we can use clear structure and headings.
+
+For navigation elements, we can wrap those in the `<nav>` element.
 
 
 ## Getting Started
