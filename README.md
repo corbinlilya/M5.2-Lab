@@ -30,7 +30,16 @@ alt tags to each image.
 For hearing impaired people, we can add a transcript as an alternative below the audio player. If it was a long audio clips, I
 wouldn't manually transcribe, but it was short so I added a show/hide transcript button.
 
-###
+### Input Forms
+
+We can add the aria-label to add a label that is not visibile to sighted users. For the comment input, we can add `<label>` elements with "for" attributes to associate them to the input, matching the input id.
+
+### Tables
+For the table of information, we can make it more accessible by adding scopes to each column, and start of each row, and changing each column and start of each row to `<th>` elements. We can add an aria-describedby label and `<caption>` to create a readable summary for the table and describe the table.
+
+### Other Changes
+We can add tabindex to elements that we want to be tabbable that we want to be keyboard accessible. If I was navigating an article with my keyboard, and it was a long scrollable page, tabbing through headers might be useful. Also, the header is currently just a div, so we can change that to a `<header>` tag. As well, we can change the `<div class="secondary">` to an aside, which is what it visibily is, and keep the class for CSS. We can also add a lang attribute to the `<html>` tag.
+
 
 ## Getting Started
 
