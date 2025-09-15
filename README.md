@@ -22,6 +22,15 @@ To make the article text more accessible, we can use clear structure and heading
 
 For navigation elements, we can wrap those in the `<nav>` element.
 
+### Images
+To fix the images to make them more accessible, we can add
+alt tags to each image.
+
+### Audio Player
+For hearing impaired people, we can add a transcript as an alternative below the audio player. If it was a long audio clips, I
+wouldn't manually transcribe, but it was short so I added a show/hide transcript button.
+
+###
 
 ## Getting Started
 

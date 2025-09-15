@@ -18,7 +18,7 @@ body {
 
 /* || typography */
 
-font[size="7"], font[size="6"], font[size="5"] {
+h1, h2, h3 {
   font-family: 'Sonsie One', cursive;
   color: #2a2a2a;
 }
@@ -28,19 +28,19 @@ p, input, li, table, label {
   color: #2a2a2a;
 }
 
-font[size="7"] {
+h1 {
   font-size: 4rem;
   text-align: center;
   color: white;
   text-shadow: 2px 2px 10px black;
 }
 
-font[size="6"] {
+h2 {
   font-size: 3rem;
   text-align: center;
 }
 
-font[size="5"] {
+h3 {
   font-size: 2.2rem;
 }
 
@@ -172,12 +172,12 @@ audio {
 
 /* Comments styling */
 
-.comments {
+.comments, .transcript {
   background-color: #def;
   padding: 10px;
 }
 
-.show-hide {
+.show-hide, .transcript-btn {
   cursor: pointer;
 }
 
@@ -209,17 +209,17 @@ audio {
   flex: 6;
 }
 
-.show-hide {
+.show-hide, .transcript-btn {
   text-align: center;
   width: 150px;
 }
 
-.comment-form input, .comment-form label, .show-hide {
+.comment-form input, .comment-form label, .show-hide, .transcript-btn {
   font-size: 1.6rem;
   line-height: 32px;
 }
 
-.comment-form input[type="submit"], .show-hide {
+.comment-form input[type="submit"], .show-hide, .transcript-btn {
   background: #333;
   border: 0;
   color: white;

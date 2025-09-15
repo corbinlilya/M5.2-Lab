@@ -16,6 +16,26 @@ showHideBtn.onclick = function() {
   }
 };
 
+// Toggle transcript visibility (transcript-btn)
+const transcriptBtn = document.querySelector('.transcript-btn');
+const transcriptWrapper = document.querySelector('.transcript-wrapper');
+
+transcriptWrapper.style.display = 'none';
+
+transcriptBtn.onclick = function () {
+  let txt = transcriptBtn.textContent;
+  if (txt === 'Show transcript') {
+    transcriptBtn.textContent = 'Hide transcript';
+    transcriptWrapper.style.display = 'block';
+  } else {
+    transcriptBtn.textContent = 'Show transcript';
+    transcriptWrapper.style.display = 'none';
+  }
+};
+
+
+
+
 // functionality for adding a new comment via the comments form
 
 const form = document.querySelector('.comment-form');
